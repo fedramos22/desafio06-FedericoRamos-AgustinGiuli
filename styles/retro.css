@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+header {
+    margin-top: 40px;
+}
+
+header h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #8CEDFE;
+    color: #35403D;
+    background-image: linear-gradient(120deg,#B188FC,#7FFCF8);
+}
+
+.seccion1 .tituloSeccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-weight: 200;
+    width: 100%;
+    padding: 12px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #35403D;
+    background-image: linear-gradient(120deg,#B188FC,#7FFCF8);
+}
+
+.seccion1 .tituloSeccion i {
+    width: 50px;
+    font-size: 20px;
+    color: #35403D;
+}
+
+main .seccion1 .articulo1 {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border: 2px solid #8CEDFE;
+    border-radius: 4px;
+    background-color: #D6E2DE;
+}
+
+.articulo1 .form1 span {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: #D6E2DE;
+}
+
+.articulo1 .form1 span input {
+    border: 2px solid #8CEDFE;
+    border-right: 2px solid #B188FC;
+    border-bottom: 2px solid #B188FC;
+}
+
+.articulo1 .form1 span input:focus {
+    border: 2px solid #8CEDFE;
+    border-left: 2px solid #B188FC;
+    border-top: 2px solid #B188FC;
+    color: #B188FC;
+}
