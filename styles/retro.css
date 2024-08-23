@@ -206,3 +206,8 @@ main .seccion1 .articulo2 {
     margin-top: 2%;
     color: #D6E2DE;
 }
+
+.bi.bi-question-circle {
+    cursor: pointer;
+    margin-left: 4px;
+}
